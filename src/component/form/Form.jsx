@@ -141,7 +141,7 @@ export default function Form() {
 
     if (input && !input.address) {
       formIsValid = false;
-      errors["dob"] = "*Please enter address!";
+      errors["address"] = "*Please enter address!";
     }
 
     if (!file) {

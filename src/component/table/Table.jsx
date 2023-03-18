@@ -65,11 +65,11 @@ const Table = () => {
                     <td>{item.name}</td>
 
                     <td>{item.mail}</td>
-                    <td>{item.city.name}</td>
-                    <td>{item.state.name}</td>
+                    <td>{item.city.name ?? "-"}</td>
+                    <td>{item.state.name ?? "-"}</td>
 
-                    <td>{item.date}</td>
-                    <td>{item.age}</td>
+                    <td>{item.date ?? "-"}</td>
+                    <td>{item.age ?? "-"}</td>
                     <td>{item.address}</td>
                     <td>
                       <img className="col-5" src={item.file} />
